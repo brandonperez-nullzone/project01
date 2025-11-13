@@ -14,7 +14,7 @@ def main():
     if need_generate:
         generate_env_files()
     else:
-        print("✅ Archivos .mini y .full-data encontrados.\n")
+        print("✅ Files .mini and .full-data findings.\n")
 
     # 2️⃣ Cargar variables del entorno (del .env recién generado)
     load_environment()
